@@ -1,4 +1,3 @@
-
 function updateProfileInfo(profileData) {
     const photo = document.getElementById('profile.photo')
     photo.src = profileData.photo
@@ -13,18 +12,20 @@ function updateProfileInfo(profileData) {
     const location = document.getElementById('profile.location')
     location.innerText = profileData.location
 
-    const phone = document.getElementById('profile.number')
+    const phone = document.getElementById('profile.phone')
     phone.innerText = profileData.phone
-    phone.href = `tel:${profileData.numbe}`
+    phone.href = `tel:${profileData.phone}`
 
     const email = document.getElementById('profile.email')
     email.innerText = profileData.email
     email.href = `mailto:${profileData.email}`
 }
+
 function updateSoftSkills(profileData) {
     const softSkills = document.getElementById('profile.skills.softSkills')
-    softSkills.innerHTML = profileData.skills.softSkills.map(skill => `<li> $(skill)</li>`).join('')
+    softSkills.innerHTML = profileData.skills.softSkills.map(skill => `<li>${skill}</li>`).join('')
 }
+
 function updateHardSkills(profileData) {
     const hardSkills = document.getElementById('profile.skills.hardSkills')
     hardSkills.innerHTML = profileData.skills.hardSkills.map(skill => `<li><img src="${skill.logo}" alt="${skill.name}" title="${skill.name}"></li>`).join('')
@@ -60,11 +61,12 @@ function updateProfessionalExperience(profileData) {
     }).join('')
 }
 
-
 (async () => {
     const profileData = await fetchProfileData()
     updateProfileInfo(profileData)
     updateSoftSkills(profileData)
     updateHardSkills(profileData)
-
+    updateLanguages(profileData)
+    updatePortfolio(profileData)
+    updateProfessionalExperience(profileData)
 })()
