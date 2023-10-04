@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio Lucas Willian</title>
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="/assets/css/acordeon.css">
+    <link rel="stylesheet" href="/assets/css/languages.css">
+    <link rel="stylesheet" href="/assets/css/portfolio.css">
+    <link rel="stylesheet" href="assets/css/experiencie.css">
+    <link rel="stylesheet" href="assets/css/skills.css">
+</head>
+
+<body>
+    <main class="main">
+    <header class="header">
+        <img src="/assets/img/my-photo.jpeg" alt="Foto de Perfil" class="photo" id="profile.photo">
+                
+        <h1 class="title"> Olá,
+            <br>
+            eu sou <span id="profile.name">Loading...</span>
+        </h1>
+
+        <div class="information">
+            <p class="job" id="profile.job">Loading...</p>
+            <p class="location" id="profile.location">Loading...</p>
+            <p class="phone-number">
+                <a href="tel:(15) 9 9794-3213" id="profile.phone-number">Loading...</a>
+            </p>
+            <p class="email">
+                <a href="mailto:lucaswilliansoares00@gmail.com" id="profile.email">loading@gmail.com</a>
+            </p>
+
+        </div>
+    </header>
+    <section class="acordeon">
+        <button class="trigger" type="button" >
+        Skills
+     </button>
+ 
+        <div class="content" >
+            <div class="skills">
+                <section class="tools">
+                    <h2>Tools:</h2>
+                    <ul id="profile.skills.hardSkills">
+                    </ul>
+                 </section>
+
+                <section class="personal">
+                    <h2>Personal:</h2>
+                    <ul id="profile.skills.softsSkills">
+                        <li>Loading...</li>
+                        <li>Loading...</li>
+                        <li>Loading...</li>
+                        <li>Loading...</li>
+                        <li>Loading...</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </section>
+
+    <section class="acordeon">
+       <button class="trigger" type="button" >
+        Idiomas
+    </button>
+
+       <div class="content" >
+            <ul class="languages" id="profile.languages">
+                <li>Loading...</li>
+                <li>Loading...</li>
+            </ul>
+       </div>
+    </section>
+    <section>
+        <section class="acordeon">
+            <button class="trigger" type="button" >
+             Portfólio
+         </button>
+     
+            <div class="content" >
+                <ul class="portfolio" id="profile.portfolio">
+                    <li>
+                        <span class="title github"> Caixa eletronico</span>
+                        <a href="https://github.com/1lucashsw/caixa-eletronico" target="_blank">https://github.com/1lucashsw/caixa-eletronico</a>
+                    </li>
+                    <li>
+                        <span class="title github"> PokeDex</span>
+                        <a href="https://github.com/1lucashsw/pokedex" target="_blank">https://github.com/1lucashsw/pokedex</a>
+                    </li>
+                    <li>
+                        <span class="title github"> Controle TV</span>
+                        <a href="https://github.com/1lucashsw/sistema-smart-tv" target="_blank">https://github.com/1lucashsw/sistema-smart-tv</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="acordeon">
+            <button class="trigger" type="button" >
+             Experiência Profissional
+         </button>
+     
+            <div class="content" >
+                <ul class="experience" id="profile.professionalExpericence">
+                    <li>
+                        <span class="title"> Front-end Developer</span>
+                        <span class="period">Fev 2023 - Current</span>
+                        <p>
+                            Elaboracao de projetos pessoais.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    
+
+    <script src="/assets/js/acordeon.js"></script>
+    <script src="/assets/js/api.js"></script>
+    <script src="/assets/js/main.js"></script>
+</body>
+
+</html>

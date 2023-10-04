@@ -1,0 +1,76 @@
+{
+  "name": "Lucas W Soares",
+  "photo": "https://avatars.githubusercontent.com/u/111025898?s=400&u=956182026bb57cadc62885330a893b17bdb8752e&v=4",
+  "job": "Desenvolvedor Full Stack",
+  "location": "Sorocaba - SP",
+  "phone": "(15) 997943-3212",
+  "email": "lucaswilliansoares00@gmail.com",
+  "skills": {
+    "hardSkills": [
+      {
+        "name": "Nodejs",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+      },
+      {
+        "name": "Java",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
+      },
+      {
+        "name": "Angular",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
+      },
+      {
+        "name": "JavaScript",
+        "logo": "https://raw.githubusercontent.com/1lucashsw/js-developer-portfolio/main/data/imgs/js.png"
+      },
+      {
+        "name": "HTML",
+        "logo": "https://raw.githubusercontent.com/1lucashsw/js-developer-portfolio/main/data/imgs/html.png"
+      },
+      {
+        "name": "CSS",
+        "logo": "https://raw.githubusercontent.com/1lucashsw/js-developer-portfolio/main/data/imgs/css.png"
+      }
+    ],
+    "softSkills": [
+      "Flexibilidade",
+      "Comuunicação",
+      "Trabalho em equipe",
+      "Organização",
+      "Comprometimento com resultados"
+    ]
+  },
+  "languages": [
+    "Português BR",
+    "Inglês (intermediário)"
+  ],
+  "portfolio": [
+    {
+      "name": "Pokedex",
+      "url": "https://github.com/1lucashsw/pokedex",
+      "github": true
+    },
+    {
+      "name": "Caixa eletrônico",
+      "url": "https://github.com/1lucashsw/caixa-eletronico",
+      "github": true
+    }
+  ],
+  "professionalExperience": [
+    {
+      "name": "Arquiteto de software / S3 BANK",
+      "period": "2022 - até o momento",
+      "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
+    },
+    {
+      "name": "Software Engineering Lead / DIO",
+      "period": "2021 - 2022",
+      "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
+    },
+    {
+      "name": "CEO / Brain Machine",
+      "period": "2016 - 2021",
+      "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+    }
+  ]
+}
