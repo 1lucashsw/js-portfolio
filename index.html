@@ -29,41 +29,38 @@
     <header class="header">
         <img src="/assets/img/my-photo.jpeg" alt="Foto de Perfil" class="photo" id="profile.photo">
                 
-        <h1 class="title"> Olá,
-            <br>
-            eu sou <span id="profile.name">Loading...</span>
+        <h1 class="title">
+            Olá, <br>eu sou <span id="profile.name">Loading...</span>
         </h1>
 
         <div class="information">
             <p class="job" id="profile.job">Loading...</p>
             <p class="location" id="profile.location">Loading...</p>
-            <p class="phone-number">
-                <a href="tel:(15) 9 9794-3213" id="profile.phone-number">Loading...</a>
+            <p class="phone">
+                <a href="tel:(15) 9 9794-3213" id="profile.phone">Loading...</a>
             </p>
             <p class="email">
-                <a href="mailto:lucaswilliansoares00@gmail.com" id="profile.email">loading@gmail.com</a>
+                <a href="mailto:lucaswilliansoares00@mail.com" id="profile.email">loading@email.com</a>
             </p>
-
         </div>
     </header>
+
     <section class="acordeon">
-        <button class="trigger" type="button" >
-        Skills
-     </button>
- 
-        <div class="content" >
+        <button class="trigger" type="button">
+            <h2>Skills</h2>
+        </button>
+
+        <div class="content">
             <div class="skills">
                 <section class="tools">
-                    <h2>Tools:</h2>
+                    <h3>Ferramentas:</h3>
                     <ul id="profile.skills.hardSkills">
                     </ul>
-                 </section>
+                </section>
 
                 <section class="personal">
-                    <h2>Personal:</h2>
-                    <ul id="profile.skills.softsSkills">
-                        <li>Loading...</li>
-                        <li>Loading...</li>
+                    <h3>Pessoal:</h3>
+                    <ul id="profile.skills.softSkills">
                         <li>Loading...</li>
                         <li>Loading...</li>
                         <li>Loading...</li>
@@ -74,63 +71,48 @@
     </section>
 
     <section class="acordeon">
-       <button class="trigger" type="button" >
-        Idiomas
-    </button>
+        <button class="trigger" type="button">
+            <h2>Idiomas</h2>
+        </button>
 
-       <div class="content" >
+        <div class="content">
             <ul class="languages" id="profile.languages">
                 <li>Loading...</li>
-                <li>Loading...</li>
             </ul>
-       </div>
+        </div>
     </section>
-    <section>
-        <section class="acordeon">
-            <button class="trigger" type="button" >
-             Portfólio
-         </button>
-     
-            <div class="content" >
-                <ul class="portfolio" id="profile.portfolio">
-                    <li>
-                        <span class="title github"> Caixa eletronico</span>
-                        <a href="https://github.com/1lucashsw/caixa-eletronico" target="_blank">https://github.com/1lucashsw/caixa-eletronico</a>
-                    </li>
-                    <li>
-                        <span class="title github"> PokeDex</span>
-                        <a href="https://github.com/1lucashsw/pokedex" target="_blank">https://github.com/1lucashsw/pokedex</a>
-                    </li>
-                    <li>
-                        <span class="title github"> Controle TV</span>
-                        <a href="https://github.com/1lucashsw/sistema-smart-tv" target="_blank">https://github.com/1lucashsw/sistema-smart-tv</a>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="acordeon">
-            <button class="trigger" type="button" >
-             Experiência Profissional
-         </button>
-     
-            <div class="content" >
-                <ul class="experience">
-                    <li>
-                        <span class ="title" id="profile.professionalExpericence.name"> Front-end Developer / dio.me</span>
-                        <span class="period" id="profile.professionalExpericence.period">Fev 2023 - Current</span>
-                        <p id="profile.professionalExpericence.description">
-                            Elaboracao de projetos pessoais, participacao de bootcamps, cursos de Front-end e Back end.
-                        </p>
-                    </li>
-                </ul>
-            </div>
-        </section>
-    </main>
-    
 
-    <script src="/assets/js/acordeon.js"></script>
-    <script src="/assets/js/api.js"></script>
-    <script src="/assets/js/main.js"></script>
+    <section class="acordeon">
+        <button class="trigger" type="button">
+            <h2>Portfólio</h2>
+        </button>
+
+        <div class="content">
+            <ul class="portfolio" id="profile.portfolio">
+            </ul>
+        </div>
+    </section>
+
+    <section class="acordeon">
+        <button class="trigger" type="button">
+            <h2>Experiência Profissional</h2>
+        </button>
+
+        <div class="content">
+            <ul class="experience" id="profile.professionalExperience">
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <a href="https://www.dio.me/" target="_blank">
+            <img src="assets/img/dio.svg" alt="DIO">
+        </a>
+    </footer>
+</main>
+
+<script src="assets/js/acordeon.js"></script>
+<script src="assets/js/api.js"></script>
+<script src="assets/js/main.js"></script>
 </body>
 
 </html>

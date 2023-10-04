@@ -5,3 +5,12 @@ async function fetchProfileData() {
     const profileData = await response.json()
     return profileData
 }
+
+
+
+
+
+
+
+
+   
